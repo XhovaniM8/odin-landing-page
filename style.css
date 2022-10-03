@@ -1,0 +1,187 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: white;
+  margin: 0;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-weight: bolder;
+  font-size: 24px;
+  padding: 12px;
+}
+
+.section__one {
+  background-color: #1f2937;
+  color: white;
+  padding: 12px;
+}
+
+.header__intro {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.header__blurb {
+  font-size: 18px;
+  filter: contrast(60%);
+}
+
+.header__button {
+  margin-top: 30px;
+  max-width: 100px;
+  background-color: #3882f6;
+  color: white;
+}
+
+.section__two {
+  background-color: white;
+  color: black;
+  padding: 24px;
+}
+
+.section__three {
+  background-color: #e5e7eb;
+  padding: 24px;
+}
+
+.section__four {
+  background-color: #3882f6;
+  padding: 24px;
+}
+
+.action__button {
+    margin-top: 30px;
+    max-width: 100px;
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
+  }
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 24px;
+  margin-top: auto;
+}
+
+.header__img {
+  width: 400px;
+  height: auto;
+  padding: 24px;
+}
+
+.section__two__img {
+  width: 200px;
+  height: auto;
+  padding: 24px;
+}
+
+.nav_link {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* Flex Stuff */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-grow: 1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.section__one {
+  display: flex;
+  justify-content: center;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section_two{
+    display: flex;
+    justify-content: center;
+}
+
+.header__two{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+.section__two__img__container{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote, .quote__author {
+    width: 50%;
+  }
+
+.section__four {
+    display: flex;
+    justify-content: center;
+}
+
+.action__text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.action__call, .action__signup{
+    margin: 0;
+    color: white;
+}
+
+.action__call{
+    font-size: 36px;
+}
+
+.action__signup{
+    font-size: 18px;
+}
+
+.action__button{
+    flex-grow: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
