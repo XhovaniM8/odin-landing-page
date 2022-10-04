@@ -97,9 +97,16 @@ footer {
   flex-grow: 1;
 }
 
+.nav__bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1500px;
+}
+
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .header__logo {
