@@ -50,17 +50,22 @@ header {
 }
 
 .section__four {
-  background-color: #3882f6;
+  background-color: white;
   padding: 24px;
 }
 
-.action__button {
-    margin-top: 30px;
-    max-width: 100px;
+.action__container{
     background-color: #3882f6;
-    color: white;
-    border-color: white;
+    padding: 24px;
   }
+
+.action__button {
+  margin-top: 30px;
+  max-width: 100px;
+  background-color: #3882f6;
+  color: white;
+  border-color: white;
+}
 
 footer {
   background-color: #1f2937;
@@ -97,11 +102,11 @@ footer {
   flex-grow: 1;
 }
 
-.nav__bar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1500px;
+.nav__bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1500px;
 }
 
 header {
@@ -125,28 +130,28 @@ header {
   justify-content: center;
 }
 
-.section_two{
-    display: flex;
-    justify-content: center;
+.section_two {
+  display: flex;
+  justify-content: center;
 }
 
-.header__two{
-    display: flex;
-    justify-content: center;
-    padding: 12px;
+.header__two {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
 }
 
-.section__two__img__container{
-    display: flex;
-    justify-content: center;
-    font-style: italic;
+.section__two__img__container {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
 }
 
 figure {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .section__three {
@@ -156,39 +161,41 @@ figure {
   align-items: center;
 }
 
-.quote, .quote__author {
-    width: 50%;
-  }
+.quote,
+.quote__author {
+  width: 50%;
+}
 
 .section__four {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.action__text{
-    display: flex;
-    flex-direction: column;
-    margin-right: 10px;
+.action__text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
 }
 
-.action__call, .action__signup{
-    margin: 0;
-    color: white;
+.action__call,
+.action__signup {
+  margin: 0;
+  color: white;
 }
 
-.action__call{
-    font-size: 36px;
+.action__call {
+  font-size: 36px;
 }
 
-.action__signup{
-    font-size: 18px;
+.action__signup {
+  font-size: 18px;
 }
 
-.action__button{
-    flex-grow: 0;
+.action__button {
+  flex-grow: 0;
 }
 
 footer {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
